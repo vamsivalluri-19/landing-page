@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Valluri Vamsi | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="logo">Vamsi</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-container">
+    <!-- LEFT CONTENT -->
+    <div class="hero-text">
+      <h1>VALLURI VAMSI</h1>
+      <p>
+        B.Tech Student (Artificial Intelligence) <br>
+        Aspiring Web Developer & AI Enthusiast
+      </p>
+      <button
+        onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'})">
+        Explore Profile
+      </button>
+    </div>
+
+    <!-- RIGHT IMAGE -->
+    <div class="hero-image">
+      <img src="profile.jpg" alt="Vamsi Valluri">
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section bg-light" id="about">
+  <div class="about-wrapper">
+
+    <!-- PROFILE CARD -->
+    <div class="profile-card">
+      <img src="profile.jpg" alt="Vamsi Valluri" class="profile-img">
+
+      <h3>Vamsi Valluri</h3>
+      <p class="subtitle">
+        B.Tech in Artificial Intelligence (2023–2027)<br>
+        Parul University, Vadodara
+      </p>
+
+      <p>
+        <strong>Skills:</strong><br>
+        Backend Development (Node.js, Express, MongoDB, Spring Boot),<br>
+        Frontend/UI/UX, DSA (Java, LeetCode), Python Data Analysis,<br>
+        Full-Stack Web Development
+      </p>
+
+      <p>
+        <strong>Interests:</strong><br>
+        Building ML-powered apps, recruiter dashboards,<br>
+        recursion & DP problems
+      </p>
+
+      <div class="social-links">
+        <a href="https://github.com/vamsivalluri-19" target="_blank">GitHub</a>
+        <span>|</span>
+        <a href="https://linkedin.com/in/vamsi-valluri-702548250" target="_blank">LinkedIn</a>
+        <span>|</span>
+        <a href="mailto:vamsivalluri52@gmail.com">Email</a>
+      </div>
+    </div>
+
+    <!-- ABOUT TEXT -->
+    <div class="about-text">
+      <h2>About Me</h2>
+
+      <p>
+        I am a motivated B.Tech student specializing in Artificial Intelligence
+        at Parul University (2023–2027). I enjoy building clean, responsive,
+        and user-friendly web applications using HTML, CSS, and JavaScript.
+      </p>
+
+      <p>
+        I am passionate about learning new technologies, solving problems,
+        and working on real-world projects. Outside academics, I enjoy
+        traveling, bike riding, and participating in environmental activities
+        such as bird feeding and tree plantation.
+      </p>
+
+      <a href="Vamsi_Resume.pdf" download class="btn">
+        ⬇ Download Resume
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- EDUCATION -->
+<section class="section bg-image education-bg" id="education">
+  <div class="overlay"></div>
+  <div class="container">
+    <h2>Education</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>B.Tech – Artificial Intelligence</h3>
+        <p>Parul University</p>
+        <p>2023 – 2027</p>
+        <strong>CGPA: 7.53 / 10</strong>
+      </div>
+
+      <div class="card">
+        <h3>Intermediate (Class XII)</h3>
+        <p>Oxford Junior College</p>
+        <strong>78.6%</strong>
+      </div>
+
+      <div class="card">
+        <h3>Class X</h3>
+        <p>Scholars High School</p>
+        <strong>99%</strong>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section bg-light" id="projects">
+  <div class="container">
+    <h2>Projects</h2>
+
+    <div class="cards">
+      <!-- Project 1 -->
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>A responsive personal portfolio showcasing my skills, projects, and achievements.</p>
+        <strong>Tech:</strong> HTML, CSS, JavaScript, Bootstrap
+        <br>
+        <a href="https://github.com/vamsivalluri-19/portfolio" target="_blank">View Code</a>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="card">
+        <h3>Job Portal</h3>
+        <p>Full-stack web app for recruiters and job seekers with dashboards and workflows.</p>
+        <strong>Tech:</strong> Node.js, Express, MongoDB, React
+        <br>
+        <a href="https://github.com/vamsivalluri-19/job-portal" target="_blank">View Code</a>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="card">
+        <h3>Health Tracker App</h3>
+        <p>ML-powered app to track health metrics and visualize progress with charts.</p>
+        <strong>Tech:</strong> Python, Flask, TensorFlow, Chart.js
+        <br>
+        <a href="https://github.com/vamsivalluri-19/health-tracker" target="_blank">View Code</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section bg-image skills-bg" id="skills">
+  <div class="overlay"></div>
+  <div class="container">
+    <h2>Skills</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Programming</h3>
+        <p>Python, DSA with Java, C, C++</p>
+      </div>
+
+      <div class="card">
+        <h3>Web Technologies</h3>
+        <p>HTML, CSS, JavaScript</p>
+      </div>
+
+      <div class="card">
+        <h3>Tools & Concepts</h3>
+        <p>SQL, Django, Data Structures</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section bg-light" id="contact">
+  <div class="container">
+    <h2>Contact Me</h2>
+
+    <p>
+      📞 +91 6301231575 <br>
+      📧 vamsivalluri52@gmail.com
+    </p>
+
+    <form action="mailto:vamsivalluri52@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  © 2026 Valluri Vamsi | Portfolio
+</footer>
+
+</body>
+</html>
